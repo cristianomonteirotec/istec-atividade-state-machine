@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://csildorm4eys4"]
+
+[ext_resource type="Script" uid="uid://dp7o7tgrx0f27" path="res://Scripts/tower.gd" id="1_ndpwd"]
+
+[node name="Tower" type="Node2D" unique_id=1541113282]
+script = ExtResource("1_ndpwd")
+resources_per_click = null
+consumption_rate = null
+
+[node name="ResourceLabel" type="Label" parent="." unique_id=1699995453]
+offset_left = 580.0
+offset_top = 57.0
+offset_right = 620.0
+offset_bottom = 80.0
+
+[node name="StateLabel" type="Label" parent="." unique_id=1686066092]
+offset_left = 589.0
+offset_top = 232.0
+offset_right = 629.0
+offset_bottom = 255.0
+
+[node name="GatheringTimer" type="Timer" parent="." unique_id=1902473637]
+wait_time = 0.5
+one_shot = true
